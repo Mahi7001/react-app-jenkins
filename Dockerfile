@@ -2,5 +2,5 @@ FROM node:10-alpine
 COPY . /home
 WORKDIR /home
 
-EXPOSE 8080
+EXPOSE 3000
 ENTRYPOINT npm start
